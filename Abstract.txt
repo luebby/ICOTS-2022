@@ -1,0 +1,26 @@
+Title: Causal Diagrams for Descriptive Statistics
+Presenting Author: Karsten Lübke, Leimkugelstraße 6, 45141 Essen, Germany, karsten.luebke@fom.de
+Coauthor: Matthias Gehrke, Leimkugelstraße 6, 45141 Essen, Germany, matthias.gehrke@fom.de
+
+
+Purpose: 
+Without random sampling and/ or random allocation even descriptive statistics like simple means or proportions can be quite misleading. 
+Bias and confounding are ubiquitous in big data. Causal diagrams provide a way to teach and discuss the data generating process if the data at hand is appropriate to describe the phenomenon under investigation.  
+
+Design: 
+Causal diagrams were added to the existing course materials to illustrate the differences between random and convenience sample as well as observational and experimental study.
+Student understanding in different courses was assessed with a pre-/post survey and students were asked to evaluate the helpfulness of the diagrams for their understanding.  
+
+Results:
+The proportion of correct answers increased over all courses. 
+Also a majority of agreed with the statement that the causal diagrams helped in their understanding.
+
+Implications for theory and practice:
+Integration of causality might help to understand fundamental concepts of data literacy like bias.
+Diagrams seems to provide an accessible way to discuss this.
+
+Importance:
+Statistics education should provide students a conceptual framework to scrutinize the data generating process in a data centric world. Such critical thinking about data is necessary for making trustworthy decisions based on data.
+
+
+
