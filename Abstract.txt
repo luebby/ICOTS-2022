@@ -16,7 +16,7 @@ The proportion of correct answers increased over all courses.
 Also a majority of agreed with the statement that the causal diagrams helped in their understanding.
 
 Implications for theory and practice:
-Integration of causality might help to understand fundamental concepts of data literacy like bias.
+Integration of causality might help to understand fundamental concepts of data literacy like e.g. bias.
 Diagrams seems to provide an accessible way to discuss this.
 
 Importance:
