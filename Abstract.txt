@@ -17,14 +17,16 @@ Student understanding in different courses was assessed with a pre-/post-survey 
 
 Results:
 With more than five different courses and 225 students there is a statistical discernible positive effect from pre- to post-knowledge. 
-Also a majority of agreed with the statement that the causal diagrams helped in their understanding.
+Also a majority of the students agreed with the statement that the causal diagrams helped in their understanding.
 
 Implications for theory and practice:
 Integration of causality might help to understand fundamental concepts of data literacy like e.g. bias.
 Diagrams seems to provide an accessible way to discuss this.
 
 Importance:
-Statistics education should provide students a conceptual framework to scrutinize the data generating process in a data centric world. Such critical thinking about data is necessary for making trustworthy decisions based on data.
+Statistics education should provide students a conceptual framework to scrutinize the data generating process in a data centric world. 
+Integration of topics as causal inference even in a introductory course in statistics helps to prepare students not to mess with data.
+Such critical thinking about data is necessary for making trustworthy decisions based on data.
 
 
 
