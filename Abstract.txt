@@ -12,7 +12,7 @@ So it can be decided if the data at hand is appropriate to describe the phenomen
 
 Design: 
 Causal diagrams were added to the existing course materials to illustrate the differences between random and convenience sample as well as between observational and experimental study.
-They were motivated and questioned with simple examples from the lives of students
+They were motivated and questioned with simple examples from the lives of students.
 Student understanding in different courses was assessed with a pre-/post-survey and students were asked to evaluate the helpfulness of the diagrams for their understanding.  
 
 Results:
