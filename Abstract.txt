@@ -5,10 +5,14 @@ Coauthor: Matthias Gehrke, Leimkugelstraße 6, 45141 Essen, Germany, matthias.ge
 
 Purpose: 
 Without random sampling and/ or random allocation, even descriptive statistics like simple means or proportions can be quite misleading. 
-Bias and confounding are ubiquitous in big data. Causal diagrams provide a way to teach and discuss the data generating process if the data at hand is appropriate to describe the phenomenon under investigation.  
+Bias and confounding as well as missing data are ubiquitous in big multivariable data. 
+Causal diagrams provide a way to teach and discuss the assumed data generating process.  
+So it can be decided if the data at hand is appropriate to describe the phenomenon under investigation.
+
 
 Design: 
 Causal diagrams were added to the existing course materials to illustrate the differences between random and convenience sample as well as between observational and experimental study.
+They were motivated and questioned with simple examples from the lives of students
 Student understanding in different courses was assessed with a pre-/post-survey and students were asked to evaluate the helpfulness of the diagrams for their understanding.  
 
 Results:
