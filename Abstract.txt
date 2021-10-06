@@ -25,8 +25,7 @@ Diagrams seems to provide an accessible way to discuss this.
 
 Importance:
 Statistics education should provide students a conceptual framework to scrutinize the data generating process in a data centric world. 
-Integration of topics as causal inference even in a introductory course in statistics helps to prepare students not to mess with data.
-Such critical thinking about data is necessary for making trustworthy decisions based on data.
+Integration of topics as causal inference even in a introductory course in statistics helps to prepare students not to mess with data and to make trustworthy decisions based on data.
 
 
 
