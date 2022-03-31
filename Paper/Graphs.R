@@ -27,7 +27,7 @@ dag_e2<-dagify(Y ~ X,
   geom_text(label = "Z - Prior knowledge\nX - Learning time\nY - Test score\nR - Researcher", 
             hjust = 0, vjust = 1,
             x = -1.15, y = 0.85, size = 7, color = "darkgrey") +
-  labs(title = "Randomised trial")
+  labs(title = "Randomized trial")
 
 # Stichprobe
 
@@ -57,3 +57,10 @@ dag_s2<-dagify(X ~ Z,
             x = -1.1, y = 0.75, size = 7, color = "darkgrey") + 
   labs(title = "Random sample")
 
+png("Sampling.png", width = 1000, height = 500)
+gridExtra::grid.arrange(dag_s1, dag_s2, nrow = 1)
+dev.off()
+
+png("Experiment.png", width = 1000, height = 500)
+gridExtra::grid.arrange(dag_e1, dag_e2, nrow = 1)
+dev.off()

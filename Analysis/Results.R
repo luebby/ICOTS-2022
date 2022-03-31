@@ -1,5 +1,6 @@
 # Start package
 library(mosaic)
+library(likert)
 # Set RNG
 set.seed(1896)
 
@@ -61,6 +62,9 @@ gf_histogram( ~ diffprop, data = Nulldist, center = 0, nbins = 21) %>%
 # P-Value
 prop( ~ diffprop >= effect, data = Nulldist)
 
+# Simple 2-sample test
+prop.test(choice ~ time, success = "B", data = CDK, alternative = "less")
+
 #############################################################################################################
 
 # Wie sehr stimmen Sie folgender Aussage zu: 
@@ -84,5 +88,7 @@ ECD <- data.frame(
   mutate(eval = factor(eval, levels = eval_levels, ordered = TRUE)) %>%
   rename("Graphs are useful for understanding" = eval)
 
-ecd_likert <- likert(items = ECD[,1, drop = FALSE])  
+ecd_likert <- likert(items = ECD[,1, drop = FALSE]) 
+png("Evaluation.png", width = 1000, height = 500)
 plot(ecd_likert)
+dev.off()
