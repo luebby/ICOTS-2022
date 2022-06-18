@@ -79,8 +79,8 @@ evalE <- c(8,20,7,0,1)
 evalF <- c(3,11,4,1,1)
 evalG <- c(4,6,3,0,0)
 
-eval_levels <- c("I fully agree", "Overwhelmingly agree", "Partly agree",
-                 "Overwhelmingly disagree", "I don't agree at all")
+eval_levels <- c("Fully agree", "Strongly agree", "Partly agree",
+                 "Strongly disagree", "Fully disagree")
 ECD <- data.frame(
   eval = c(rep(eval_levels, times = evalA), rep(eval_levels, times = evalB), rep(eval_levels, times = evalC), rep(eval_levels, times = evalD),
            rep(eval_levels, times = evalE), rep(eval_levels, times = evalF), rep(eval_levels, times = evalG))
