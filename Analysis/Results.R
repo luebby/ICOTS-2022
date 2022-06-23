@@ -82,13 +82,29 @@ evalG <- c(4,6,3,0,0)
 eval_levels <- c("Fully agree", "Strongly agree", "Partly agree",
                  "Strongly disagree", "Fully disagree")
 ECD <- data.frame(
-  eval = c(rep(eval_levels, times = evalA), rep(eval_levels, times = evalB), rep(eval_levels, times = evalC), rep(eval_levels, times = evalD),
-           rep(eval_levels, times = evalE), rep(eval_levels, times = evalF), rep(eval_levels, times = evalG))
+  eval = c(rep(eval_levels, times = evalA), rep(eval_levels, times = evalB), 
+           rep(eval_levels, times = evalC), rep(eval_levels, times = evalD),
+           rep(eval_levels, times = evalE), rep(eval_levels, times = evalF), 
+           rep(eval_levels, times = evalG))
   ) %>%
   mutate(eval = factor(eval, levels = eval_levels, ordered = TRUE)) %>%
-  rename("Graphs are useful for understanding" = eval)
+#  rename("Graphs are useful for understanding" = eval)
+  rename(" " = eval)
 
 ecd_likert <- likert(items = ECD[,1, drop = FALSE]) 
-png("Evaluation.png", width = 1000, height = 500)
-plot(ecd_likert)
+png("Evaluation.png", width = 2000, height = 1000)
+# plot(ecd_likert)
+size <- 12
+plot(ecd_likert,
+     legend.position = "bottom",
+     panel.background = element_rect(size = NA, color = "grey70", fill = "lightgray"),
+     text.size = size) |> 
+  gf_labs(title = "Graphs are useful for understanding") |> 
+  gf_theme(legend.text = element_text(size = 3 * size), 
+           legend.title = element_text(size = 3 * size),
+           axis.title.x = element_text(size = 3 * size), 
+           axis.text.x = element_text(size = 2.5 * size),
+           plot.title = element_text(size = 3.5 * size),
+           plot.margin = unit(c(0, 1, 0, -6), "mm")) # t r b l
 dev.off()
+
