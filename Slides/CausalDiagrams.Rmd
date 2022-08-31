@@ -63,7 +63,7 @@ $$\color{green}{Estimate} =\color{blue}{Estimand} + \color{purple}{Bias} + \colo
 
 - .blue[*Estimand*]: Unobserved <mark>quantity we are interested in</mark>. Quite often a *parameter*,  e.g., $\color{blue}{\pi, \mu, \rho}$.
 
-- .purple[*Bias*]: Systematic difference between estimate and estimand.
+- .purple[*Bias*]: Systematic difference between estimate and estimand, due to e.g., sampling or omitted variable bias.
 
 - .orange[*Noise*]: Random differences due to sample.
 
