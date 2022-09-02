@@ -57,11 +57,11 @@ class: center, inverse, middle
 
 ## ¿Por qué datos de todos modos?
 
-$$\color{green}{Estimar} =\color{blue}{estimación} + \color{purple}{Parcialidad} + \color{orange}{Ruido}$$
+$$\color{green}{Estimar} =\color{blue}{Estimación} + \color{purple}{Parcialidad} + \color{orange}{Ruido}$$
 
 - .green[*Estimar*]: Resultado basado en nuestra <mark>datos</mark>. Muy a menudo una *estadística*,  p.ej., $\color{green}{p, \bar{x}, r}$.
 
-- .blue[*estimación*]:<mark>Cantidad no observada que nos interesa</mark>. Muy a menudo un *parámetro*,  p.ej., $\color{blue}{\pi, \mu, \rho}$.
+- .blue[*Estimación*]:<mark>Cantidad no observada que nos interesa</mark>. Muy a menudo un *parámetro*,  p.ej., $\color{blue}{\pi, \mu, \rho}$.
 
 - .purple[*Parcialidad*]: Diferencia sistemática entre Estimar y estimación, debido a p.ej., muestreo o variable omitida Parcialidad.
 
@@ -92,7 +92,7 @@ knitr::include_graphics("img/Meng.png")
 
 ---
 
-## Protección de Parcialidad: Aleatorizar
+## Protección de parcialidad: Aleatorizar
 
 .pull-left[
 
@@ -134,15 +134,15 @@ Los datos dirán lo que quieras, dependiendo de cómo los cortes.
 
 class: center, inverse, middle
 
-# diagramas causales
+# Diagramas causales
 
 ---
 
-## An Arrow
+## Una flecha
 
 - $\color{green}{X} \rightarrow \color{blue}{Y}: \quad \color{blue}{Y}=f(\color{green}{X}, U_{\color{blue}{Y}})$ con alguna funcion $f(\cdot)$ y algunos exógenos $U$. 
 
-- El valor de $\color{blue}{Y}$ depende de $\color{green}{X}$ -- pero el valor de $\color{green}{X}$ .red[no] en $\color{blue}{Y}$. 
+- El valor de $\color{blue}{Y}$ depende de $\color{green}{X}$ &mdash; pero el valor de $\color{green}{X}$ .red[no] en $\color{blue}{Y}$. 
 
 - Causalmente, no hay una función inversa. $f^{-1}(\cdot)$. Mi .blue[peso] crece con mi .green[altura] pero desafortunadamente mi .green[altura] no con mi .blue[peso] &#x1F625;
 
@@ -158,7 +158,7 @@ knitr::include_graphics("img/Sampling.png")
 
 ---
 
-## Estudio observacional versus ensayo aleatorizado
+## Estudio observacional vs. ensayo aleatorizado
 
 &#x1F469;&#x200D;&#x1F3EB; quiere saber el efecto del tiempo de aprendizaje en la puntuación de la prueba:
 
